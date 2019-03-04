@@ -27,6 +27,11 @@
     }
 }
 
+/*文字居中*/
+center {
+    font-size: 17px;
+}
+
 body {
     background-color: #eaeaea;
     margin: 0;
