@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>免费天猫购物券</title>
+  
+  <subtitle>小神童购物车</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://aihch.com/"/>
+  <updated>2019-03-04T18:29:02.329Z</updated>
+  <id>https://aihch.com/</id>
+  
+  <author>
+    <name>小神童</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello</title>
+    <link href="https://aihch.com/hello-world.html"/>
+    <id>https://aihch.com/hello-world.html</id>
+    <published>2019-03-04T14:28:09.000Z</published>
+    <updated>2019-03-04T18:29:02.329Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome! This is your very first post.
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

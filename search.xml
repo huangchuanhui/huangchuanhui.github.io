@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello</title>
+      <link href="/hello-world.html"/>
+      <url>/hello-world.html</url>
+      
+        <content type="html"><![CDATA[<p>Welcome! This is your very first post. </p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
