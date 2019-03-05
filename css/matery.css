@@ -41,22 +41,23 @@ h1 {
 }
 
 h2 {
-    margin: 42px 0 18px -5px;
+    margin: 42px 0 40px 0px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 1.8rem;
+    color: #fd4777;
 }
 
 h3 {
-    margin: 38px 0 15px -4px;
-    font-size: 1.6rem;
+    margin: 38px 0 36px 0px;
+    font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.7rem;
 }
 
 h4 {
-    margin: 32px 0 12px -4px;
-    font-size: 1.45rem;
+    margin: 32px 0 30px -4px;
+    font-size: 1.35rem;
     font-weight: bold;
     line-height: 1.45rem;
 }
@@ -104,8 +105,8 @@ pre {
 code {
     padding: 1px 5px;
     font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
-    font-size: 0.91rem;
-    color: #e96900;
+    font-size: 1rem;
+    color: #0060ff;
     background-color: #f8f8f8;
     border-radius: 2px;
 }
@@ -947,9 +948,19 @@ article .article-tags .chip {
 }
 
 #articleContent p {
-    margin: 2px 2px 10px;
-    font-size: 1.05rem;
+    margin: 2px 2px 22px;
+    font-size: 1.18rem;
     line-height: 1.85rem;
+    color: #000000;
+    text-shadow: #b9b9b9 2px 2px 10px;
+}
+
+#articleContent strong {
+    color: #2200ff;
+}
+
+#articleContent code {
+    font-size: 1.11rem;
 }
 
 #articleContent blockquote p {
@@ -957,11 +968,23 @@ article .article-tags .chip {
 }
 
 #articleContent a {
-    padding: 0 2px;
-    color: #42b983;
-    font-weight: 500;
-    text-decoration: underline;
-    word-wrap:break-word;
+    padding: 2px 6px;
+    color: #0d89d2;
+    border-radius: 5px;
+    background-color: #e9f2f9;
+    white-space: normal;
+    margin: 1px;
+}
+#articleContent a::before {
+    padding-right: 6px;
+    content: "\f0c1";
+    border: none;  font: normal normal normal 15px/1 FontAwesome;
+}
+#articleContent a:hover {
+    color: #0037ff;
+}
+#articleContent a.fancy-ctn.fancybox::before {
+    display: none;
 }
 
 #articleContent .img-item {
@@ -972,6 +995,7 @@ article .article-tags .chip {
     max-width: 100%;
     height: auto;
     cursor: pointer;
+    margin-bottom: 25px;
 }
 
 #articleContent video {
@@ -992,7 +1016,7 @@ article .article-tags .chip {
 #articleContent ol li {
     display: list-item;
     line-height: 1.8rem;
-    font-size: 1rem;
+    font-size: 1.05rem;
 }
 
 #articleContent ul li {
@@ -1006,6 +1030,7 @@ article .article-tags .chip {
 #articleContent table, th, td {
     padding: 12px 13px;
     border: 1px solid #dfe2e5;
+    margin: 25px 0px;
 }
 
 table tr:nth-child(2n), thead {
