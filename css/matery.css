@@ -4,18 +4,12 @@
     .container {
         width: 95%;
     }
-    header .brand-logo .logo-span {
-        font-size: 1.35rem;
-    }
 }
 
 /*中等屏幕下(平板类)的样式*/
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     .container {
         width: 90%;
-    }
-    header .brand-logo .logo-span {
-        font-size: 2rem;
     }
 }
 
@@ -31,14 +25,6 @@
         margin: 0 auto;
         max-width: 1250px;
     }
-    header .brand-logo .logo-span {
-        font-size: 2rem;
-    }
-}
-
-/*文字居中*/
-center {
-    font-size: 17px;
 }
 
 body {
@@ -231,6 +217,10 @@ header .brand-logo .logo-img {
     padding-bottom: 6px;
 }
 
+header .brand-logo .logo-span {
+    font-size: 2rem;
+}
+
 header .button-collapse i {
     font-size: 1.5rem;
 }
@@ -396,7 +386,7 @@ header .go-back i {
 }
 
 .bg-cover .title {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 700;
     line-height: 1.85em;
     margin-bottom: 20px;
@@ -504,7 +494,7 @@ header .go-back i {
 }
 
 .carousel-post .title {
-    font-size: 2.4rem;
+    font-size: 2.6rem;
 }
 
 .carousel-post .cover-btns a {
@@ -1444,7 +1434,7 @@ table tr:nth-child(2n), thead {
     margin: 8px 0;
     font-size: 0.9rem;
     font-weight: 400;
-    color: #666;
+    color: #777;
 }
 
 #aboutme .profile .social-link {
@@ -1454,7 +1444,7 @@ table tr:nth-child(2n), thead {
 #aboutme .introduction {
     margin: 1.5rem auto 3rem;
     max-width: 600px;
-    color: #555;
+    color: #999;
 }
 
 .post-charts,
