@@ -399,6 +399,7 @@ header .go-back i {
     font-weight: 300;
     line-height: 1.4em;
     color: #fff;
+    text-align: justify;
 }
 
 .bg-cover .post-title {
@@ -518,6 +519,7 @@ header .go-back i {
 .dream .text {
     opacity: .6;
     font-size: 1.1rem;
+    text-align: justify;
 }
 
 .music-player,
@@ -636,7 +638,8 @@ header .go-back i {
     height: 65px;
     max-height: 65px;
     font-size: 14px;
-    color: hsla(0, 0%, 100%, .78) !important;
+    color: hsla(0, 0%, 100%, .88) !important;
+    text-align: justify;
 }
 
 .recommend .post-card .read-more {
@@ -1469,7 +1472,8 @@ table tr:nth-child(2n), thead {
 #aboutme .introduction {
     margin: 1.5rem auto 3rem;
     max-width: 600px;
-    color: #999;
+    color: #666;
+    text-align: justify;
 }
 
 .post-charts,
