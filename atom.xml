@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://aihch.com/"/>
-  <updated>2019-03-06T04:20:41.431Z</updated>
+  <updated>2019-03-07T08:18:00.818Z</updated>
   <id>https://aihch.com/</id>
   
   <author>
@@ -17,11 +17,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo Blog</title>
+    <link href="https://aihch.com/2019/03/hexo-blog.html"/>
+    <id>https://aihch.com/2019/03/hexo-blog.html</id>
+    <published>2019-03-07T04:50:01.000Z</published>
+    <updated>2019-03-07T08:18:00.818Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;使用 Hexo 为自己在 Github 上建一个静态 Blog 站点。&lt;/p&gt;
+&lt;p&gt;在开始之前就说过，必须去注册一个 Github 帐号…… 以下假定你已经注册好了。&lt;/p&gt;
+&lt;p&gt;想学什么，可以先假装已经会了什么……
+        
+      
+    
+    </summary>
+    
+      <category term="转载" scheme="https://aihch.com/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+      <category term="技术工具" scheme="https://aihch.com/categories/%E8%BD%AC%E8%BD%BD/%E6%8A%80%E6%9C%AF%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="效率" scheme="https://aihch.com/tags/%E6%95%88%E7%8E%87/"/>
+    
+      <category term="写作" scheme="https://aihch.com/tags/%E5%86%99%E4%BD%9C/"/>
+    
+      <category term="勇猛精进" scheme="https://aihch.com/tags/%E5%8B%87%E7%8C%9B%E7%B2%BE%E8%BF%9B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>英语学习开篇之悟</title>
     <link href="https://aihch.com/2019/03/learning-english.html"/>
     <id>https://aihch.com/2019/03/learning-english.html</id>
     <published>2019-03-04T14:28:09.000Z</published>
-    <updated>2019-03-06T04:20:41.431Z</updated>
+    <updated>2019-03-07T05:27:14.211Z</updated>
     
     <summary type="html">
     

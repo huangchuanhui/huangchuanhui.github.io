@@ -42,22 +42,24 @@ h1 {
 
 h2 {
     margin: 42px 0 40px 0px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.8rem;
-    color: #fd4777;
+    color: #0d89d2;
 }
 
 h3 {
     margin: 38px 0 36px 0px;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     font-weight: bold;
     line-height: 1.7rem;
+    color: #0d89d2;
 }
 
 h4 {
     margin: 32px 0 30px -4px;
-    font-size: 1.35rem;
+    font-size: 1.2rem;
+    color: #0d89d2;
     font-weight: bold;
     line-height: 1.45rem;
 }
@@ -87,16 +89,16 @@ hr {
 }
 
 blockquote {
-    border-left: 5px solid #42b983;
-    padding: 1rem 0.8rem 0.2rem 0.8rem;
-    color: #666;
-    background-color: rgba(66, 185, 131, .1);
+    border-left: 3px solid #cccccc;
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+    color: #555;
+    background-color: rgba(189, 195, 189, .1);
 }
 
 pre {
     padding: 1.5rem !important;
     margin: 1rem 0 !important;
-    background: #272822;
+    background: #f7f7f7;
     overflow: auto;
     border-radius: 0.35rem;
     tab-size: 4;
@@ -113,8 +115,8 @@ code {
 
 pre code {
     padding: 0;
-    color: #e8eaf6;
-    background-color: #272822;
+    color: #4d4d4c;
+    background-color: #f7f7f7;
 }
 
 pre[class*="language-"] {
@@ -951,15 +953,16 @@ article .article-tags .chip {
 }
 
 #articleContent p {
-    margin: 2px 2px 22px;
-    font-size: 1.18rem;
+    margin: 22px 0px 22px;
+    font-size: 1.2rem;
+    text-align: justify;
     line-height: 1.85rem;
     color: #000000;
     text-shadow: #b9b9b9 2px 2px 10px;
 }
 
 #articleContent strong {
-    color: #2200ff;
+    color: #ef0000;
 }
 
 #articleContent code {
@@ -967,7 +970,7 @@ article .article-tags .chip {
 }
 
 #articleContent blockquote p {
-    text-indent: 0.2rem;
+    text-indent: 0rem;
 }
 
 #articleContent a {
@@ -979,7 +982,7 @@ article .article-tags .chip {
     margin: 1px;
 }
 #articleContent a::before {
-    padding-right: 6px;
+    /*padding-right: 6px;*/
     content: "\f0c1";
     border: none;  font: normal normal normal 15px/1 FontAwesome;
 }
@@ -1019,7 +1022,8 @@ article .article-tags .chip {
 #articleContent ol li {
     display: list-item;
     line-height: 1.8rem;
-    font-size: 1.05rem;
+    font-size: 1.1rem;
+    font-family: serif;
 }
 
 #articleContent ul li {
