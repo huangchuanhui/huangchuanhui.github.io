@@ -871,7 +871,7 @@ article .article-tags .chip {
 }
 
 #artDetail .post-cate a {
-    padding-right: 5px;
+    padding-right: 0px;
     color: #42b983;
     font-weight: 500;
 }
