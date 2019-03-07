@@ -971,6 +971,7 @@ article .article-tags .chip {
 
 #articleContent blockquote p {
     text-indent: 0rem;
+    color: #666;
 }
 
 #articleContent a {
