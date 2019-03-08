@@ -31,7 +31,8 @@
     </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
 
 <body>
@@ -535,12 +536,13 @@ npm install hexo-cli -g
 <p>然后在 Terminal 面板里输入</p>
 <pre><code>cd ~/Public
 git clone https://github.com/yourname/yourname.github.io.git
-</code></pre><h3 id="1-5-初始化你的本地站点"><a href="#1-5-初始化你的本地站点" class="headerlink" title="1.5. 初始化你的本地站点"></a>1.5. 初始化你的本地站点</h3><pre><code>hexo init yourname.github.io
-cd yourname.github.io
-npm install hexo-deployer-git --save
+</code></pre><h3 id="1-5-初始化你的本地站点"><a href="#1-5-初始化你的本地站点" class="headerlink" title="1.5. 初始化你的本地站点"></a>1.5. 初始化你的本地站点</h3><pre class="line-numbers language-bash"><code class="language-bash">hexo init yourname.github.io
+<span class="token function">cd</span> yourname.github.io
+<span class="token function">npm</span> <span class="token function">install</span> hexo-deployer-git --save
 hexo generate
 hexo server
-</code></pre><p>这些完成之后，你就可以打开浏览器，在地址栏里输入： localhost:4000，在本地先看看网站是什么样子了。</p>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>这些完成之后，你就可以打开浏览器，在地址栏里输入： localhost:4000，在本地先看看网站是什么样子了。</p>
 <h3 id="1-6-部署到-Github-上"><a href="#1-6-部署到-Github-上" class="headerlink" title="1.6. 部署到 Github 上"></a>1.6. 部署到 Github 上</h3><p>回到命令行下，输入</p>
 <pre><code>atom .
 </code></pre><p>Atom 就会打开 yourname.github.io 这个文件夹…… 在计算机世界里，. 是个特殊字符，代表“所有的”（以后你会越来越了解的），所以，atom . 的意思相当于“用 Atom 这个程序打开当前目录内的所有文件”……</p>
