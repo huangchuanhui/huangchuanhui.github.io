@@ -836,15 +836,6 @@ article .article-tags .chip {
     }
 }
 
-@media only screen and (min-width: 993px) {
-    #articleContent code {
-        font-size: 1.11rem;
-    }
-    #articleContent p {
-        font-size: 1.2rem;
-    }
-}
-
 #artDetail .card {
     box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15),
     0 5px 15px rgba(0, 0, 0, .07),
@@ -948,6 +939,12 @@ article .article-tags .chip {
 @media only screen and (min-width: 993px) {
     #artDetail .article-card-content {
         padding: 0 50px 20px 50px;
+    }
+    #articleContent code {
+        font-size: 1.11rem;
+    }
+    #articleContent p {
+        font-size: 1.2rem;
     }
 }
 
