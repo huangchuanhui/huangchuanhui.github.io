@@ -111,6 +111,8 @@ code {
     color: #0060ff;
     background-color: #f8f8f8;
     border-radius: 2px;
+    word-wrap:break-word;
+    white-space: pre-wrap;
 }
 
 pre code {
