@@ -46,7 +46,6 @@ h2 {
     font-weight: bold;
     line-height: 1.8rem;
     color: #0d89d2;
-    font-family: cursive;
 }
 
 h3 {
@@ -55,7 +54,6 @@ h3 {
     font-weight: bold;
     line-height: 1.7rem;
     color: #0d89d2;
-    font-family: cursive;
 }
 
 h4 {
@@ -64,7 +62,6 @@ h4 {
     color: #0d89d2;
     font-weight: bold;
     line-height: 1.45rem;
-    font-family: cursive;
 }
 
 h5 {
@@ -81,7 +78,7 @@ h6 {
 }
 
 p {
-    font-size: 1.08rem;
+    font-size: 1.06rem;
     line-height: 1.5rem;
 }
 
@@ -113,13 +110,12 @@ pre {
 code {
     padding: 1px 5px;
     font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
-    font-size: 1.08rem;
+    font-size: 1.06rem;
     color: #0060ff;
     background-color: #f8f8f8;
     border-radius: 2px;
     word-wrap:break-word;
     white-space: pre-wrap;
-    font-family: cursive;
 }
 
 pre code {
@@ -972,7 +968,6 @@ article .article-tags .chip {
     text-align: justify;
     line-height: 1.85rem;
     color: #222;
-    font-family: cursive;
 }
 
 #articleContent strong {
@@ -1039,7 +1034,6 @@ article .article-tags .chip {
     display: list-item;
     line-height: 1.8rem;
     font-size: 1.05rem;
-    font-family: cursive;
     padding-left: 0.2rem;
 }
 
