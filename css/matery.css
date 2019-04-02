@@ -42,7 +42,7 @@ h1 {
 
 h2 {
     margin: 42px 0 40px 0px;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.8rem;
     color: #0d89d2;
@@ -50,7 +50,7 @@ h2 {
 
 h3 {
     margin: 38px 0 36px 0px;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: bold;
     line-height: 1.7rem;
     color: #0d89d2;
@@ -58,7 +58,7 @@ h3 {
 
 h4 {
     margin: 32px 0 30px -4px;
-    font-size: 1.15rem;
+    font-size: 1.3rem;
     color: #0d89d2;
     font-weight: bold;
     line-height: 1.45rem;
@@ -940,10 +940,10 @@ article .article-tags .chip {
         padding: 0 50px 20px 50px;
     }
     #articleContent code {
-        font-size: 1.1rem;
+        font-size: 1.11rem;
     }
     #articleContent p {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -964,10 +964,11 @@ article .article-tags .chip {
 }
 
 #articleContent p {
-    margin: 22px 0px 22px;
+    margin: 25px 0px 25px;
     text-align: justify;
     line-height: 1.85rem;
-    color: #222;
+    color: #494949;
+    letter-spacing: 1px;
 }
 
 #articleContent strong {
@@ -975,13 +976,14 @@ article .article-tags .chip {
 }
 
 #articleContent code {
-    font-size: 1rem;
+    font-size: 1.11rem;
 }
 
 #articleContent blockquote p {
     text-indent: 0rem;
-    color: #222;
+    color: #8e8e8e;
     margin: 12px 0px 12px;
+    font-size: 1.15rem;
 }
 
 #articleContent a {
@@ -1033,8 +1035,9 @@ article .article-tags .chip {
 #articleContent ol li {
     display: list-item;
     line-height: 1.8rem;
-    font-size: 1.05rem;
+    font-size: 1.15rem;
     padding-left: 0.2rem;
+    color: #8e8e8e;
 }
 
 #articleContent ul li {
