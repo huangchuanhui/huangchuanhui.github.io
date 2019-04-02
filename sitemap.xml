@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://aihch.com/2019/03/learning-english.html</loc>
+    
+    <lastmod>2019-04-02T10:09:28.870Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://aihch.com/2019/03/yang-sheng.html</loc>
     
-    <lastmod>2019-03-12T06:13:51.960Z</lastmod>
+    <lastmod>2019-04-02T10:05:23.354Z</lastmod>
     
   </url>
   
@@ -12,13 +19,6 @@
     <loc>https://aihch.com/2019/03/hexo-blog.html</loc>
     
     <lastmod>2019-03-11T13:02:16.925Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://aihch.com/2019/03/learning-english.html</loc>
-    
-    <lastmod>2019-03-11T13:01:45.788Z</lastmod>
     
   </url>
   
