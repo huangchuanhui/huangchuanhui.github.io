@@ -4,8 +4,8 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="分类, 金牌讲师,说科普,娱乐主播,技术主播,UP主">
-    <meta name="description" content="分类 | 神童小师父">
+    <meta name="keywords" content="分类, 网赚,社交电商,流量之王,黄传辉">
+    <meta name="description" content="分类 | 神童岛主">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>分类 | 神童小师父</title>
+    <title>分类 | 神童岛主</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -35,13 +35,13 @@
 
 <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
-        <div id="navContainer" class="nav-wrapper container">
+        <div id="navContainer" class="nav-wrapper head-container">
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">神童小师父</span>
+                    <span class="logo-span">神童岛主</span>
                 </a>
             </div>
             
@@ -128,10 +128,10 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">神童小师父</div>
+        <div class="logo-name">神童岛主</div>
         <div class="logo-desc">
             
-            集百家之长，融会贯通，成神童之言
+            神童岛主-社交营销专家
             
         </div>
     </div>
@@ -284,22 +284,36 @@
         <div class="brand">
             <div class="title center-align">
                 
-                    娱乐性技术型科普人
+                最权威的社交电商经验分享平台
                 
             </div>
 
             <div class="description center-align">
                 
-                    集百家之长，融会贯通，成神童之言
+                <span id="typed"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+                <script>
+                    var typed = new Typed("#typed", {
+                        strings: ['神童岛主-社交营销专家', '如果您觉得这个博客非常有看点，那么赶紧使用Ctrl+D收藏吧！'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: false
+                    });
+                </script>           
                 
             </div>
         </div>
     </div>
 </div>
+
+
 <script>
-// 每天切换 banner 图.  Switch banner image every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
 </script>
+
     </div>
 </div>
 
@@ -315,101 +329,13 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             </div>
             <div class="tag-chips">
                 
-                
-                
-                <a href="/categories/学英语/" title="学英语: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default " style="background-color: #F9EBEA;">学英语
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/杂谈/" title="杂谈: 2">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default " style="background-color: #F5EEF8;">杂谈
-                        <span class="tag-length">2</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/随笔/" title="随笔: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default " style="background-color: #D5F5E3;">随笔
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/categories/利器/" title="利器: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default " style="background-color: #E8F8F5;">利器
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
+                你目前还没有对文章进行分类.
                 
             </div>
         </div>
     </div>
 </div>
 
-    
-    <style type="text/css">
-    #category-radar {
-        width: 100%;
-        height: 360px;
-    }
-</style>
-
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="category-radar" class="card-content"></div>
-    </div>
-</div>
-
-<script type="text/javascript" src="/libs/echarts/echarts.min.js"></script>
-<script type="text/javascript">
-    let radarChart = echarts.init(document.getElementById('category-radar'));
-
-    
-
-    let option = {
-        title: {
-            left: 'center',
-            text: '文章分类雷达图',
-            textStyle: {
-                fontWeight: 500,
-                fontSize: 22
-            }
-        },
-        tooltip: {},
-        radar: {
-            name: {
-                textStyle: {
-                    color: '#3C4858'
-                }
-            },
-            indicator: [{"name":"学英语","max":3},{"name":"杂谈","max":3},{"name":"随笔","max":3},{"name":"利器","max":3}],
-            nameGap: 5,
-            center: ['50%','55%'],
-            radius: '66%'
-        },
-        series: [{
-            type: 'radar',
-            color: ['#3ecf8e'],
-            itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data : [
-                {
-                    value : [2,2,1,1],
-                    name : '文章分类数量'
-                }
-            ]
-        }]
-    };
-
-    radarChart.setOption(option);
-</script>
     
 
 </main>
@@ -421,7 +347,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;本站总字数:&nbsp;
-                <span class="white-color">13.6k</span>
+                <span class="white-color">43</span>
             
 
             
@@ -518,6 +444,24 @@ $(function () {
 </script>
 
 
+<!-- Baidu Analytics -->
+
+<!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
 
     <script src="/libs/others/clicklove.js"></script>
 
@@ -547,7 +491,7 @@ $(function () {
                     document.getElementById("tidio-chat-iframe").style.zIndex="997";
                 }
                 else if(tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))<230){
-                    document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && $(window).width()<601)>0? "-10px":"45px" ;   
+                    document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && $(window).width()<601)>0? "-15px":"45px" ;   
                     document.getElementById("tidio-chat-iframe").style.zIndex="997";
                 }
 
@@ -557,6 +501,10 @@ $(function () {
             } 
         }); 
     </script>
+
+
+
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
 
 
 </body>

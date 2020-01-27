@@ -20,6 +20,12 @@
         max-width: 1125px;
     }
 
+    .head-container {
+    	position: absolute;
+        padding: 0px 30px;
+        width: 100%;
+    }
+
     .post-container {
         width: 90%;
         margin: 0 auto;
@@ -395,7 +401,7 @@ header .go-back i {
 
 .bg-cover .title {
     font-size: 2.5rem;
-    font-weight: 700;
+/*    font-weight: 700;*/
     line-height: 1.85em;
     margin-bottom: 20px;
     position: relative;
@@ -403,13 +409,16 @@ header .go-back i {
 
 .bg-cover .description {
     font-size: 1.25rem;
-    font-weight: 300;
+/*    font-weight: 300;*/
     line-height: 1.4em;
     color: #fff;
 }
 
 .bg-cover .post-title {
-    font-size: 1.9rem;
+    /*font-size: 3rem;*/
+    margin: 0 auto;
+    font-size: 2.5rem;
+    font-weight: 400;
 }
 
 @-webkit-keyframes rainbow {
@@ -497,7 +506,7 @@ header .go-back i {
 }
 
 .index-card {
-    margin-top: -50px;
+    margin-top: -10px;
     padding-top: 20px;
 }
 
@@ -703,6 +712,7 @@ article a:hover {
 
 article .card {
     border-radius: 8px;
+    overflow: hidden;
 }
 
 article .card-image {
@@ -780,11 +790,11 @@ article .article-tags .chip {
 }
 
 .prev-next .left-badge {
-    border-radius: 0 5px 5px 0;
+    border-radius: 8px 0 8px 0;
 }
 
 .prev-next .right-badge {
-    border-radius: 5px 0 0 5px;
+    border-radius: 0 8px 0 8px;
     right: 10px;
 }
 
@@ -822,7 +832,7 @@ article .article-tags .chip {
 
 /* 修改小屏幕下文章详情table样式. */
 @media only screen and (max-width: 550px) {
-    #articleContent table{
+    #articleContent table {
         table-layout: fixed;
     }
     #articleContent p {
@@ -1155,6 +1165,7 @@ table tr:nth-child(2n), thead {
 
 .chip-default .tag-length {
     color: #e91e63;
+    margin-top: 1px;
 }
 
 .chip-active .tag-length {
@@ -1721,7 +1732,7 @@ footer .copy-right {
 .top-scroll {
     display: none;
     position: fixed;
-    right: 20px;
+    right: 15px;
     bottom: 15px;
     padding-top: 15px;
     margin-bottom: 0;
@@ -1849,10 +1860,13 @@ footer .copy-right {
 
 /*二级菜单*/
 
-.nav-menu {}
+.nav-menu {
+}
 .nav-menu li .sub-nav{
-     position:absolute;top:77px;
-	 list-style:none;margin-left: -20px;
+     position:absolute;
+     top:77px;
+     list-style:none;
+     margin-left: -20px;
 	 display:none;
 }
 .nav-menu li .sub-nav li{
@@ -1909,7 +1923,7 @@ footer .copy-right {
 	 border-style:solid;
 	 border-color:transparent transparent rgba(255,255,255,.8)
 }
-.m-nav-item{position: relative;left: 45px}
+.m-nav-item{position: relative;left: 0px}
 .m-nav-item ul{display: none;background: rgba(255,255,255,.1);}
 .m-nav-item ul li{	
  width:245px;
@@ -1929,12 +1943,20 @@ footer .copy-right {
     -ms-transition: all .3s;
     transition: all .3s;
 }
-.m-nav-show,.m-nav-item>a:hover{color: #FFF;background:rgba(255,255,255,.8);}
-.m-nav-show>a:before,.m-nav-item>a:hover:before{opacity:1;}
-.m-nav-item .m-icon{
-	 position:absolute; 
-	 right:65px;
-	 height:50px;
-	 padding:0px;
-	 margin:0px;
+
+.m-nav-show, .m-nav-item > a:hover {
+    color: #FFF;
+    background: rgba(255, 255, 255, .8);
+}
+
+.m-nav-show > a:before, .m-nav-item > a:hover:before {
+    opacity: 1;
+}
+
+.m-nav-item .m-icon {
+    position: absolute;
+    right: 65px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
 }

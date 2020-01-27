@@ -4,8 +4,8 @@
 
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="friends, 金牌讲师,说科普,娱乐主播,技术主播,UP主">
-    <meta name="description" content="friends | 神童小师父">
+    <meta name="keywords" content="friends, 网赚,社交电商,流量之王,黄传辉">
+    <meta name="description" content="friends | 神童岛主">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>friends | 神童小师父</title>
+    <title>friends | 神童岛主</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -35,13 +35,13 @@
 
 <header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
-        <div id="navContainer" class="nav-wrapper container">
+        <div id="navContainer" class="nav-wrapper head-container">
             <div class="brand-logo">
                 <a href="/" class="waves-effect waves-light">
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">神童小师父</span>
+                    <span class="logo-span">神童岛主</span>
                 </a>
             </div>
             
@@ -128,10 +128,10 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">神童小师父</div>
+        <div class="logo-name">神童岛主</div>
         <div class="logo-desc">
             
-            集百家之长，融会贯通，成神童之言
+            神童岛主-社交营销专家
             
         </div>
     </div>
@@ -284,22 +284,36 @@
         <div class="brand">
             <div class="title center-align">
                 
-                    娱乐性技术型科普人
+                最权威的社交电商经验分享平台
                 
             </div>
 
             <div class="description center-align">
                 
-                    集百家之长，融会贯通，成神童之言
+                <span id="typed"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+                <script>
+                    var typed = new Typed("#typed", {
+                        strings: ['神童岛主-社交营销专家', '如果您觉得这个博客非常有看点，那么赶紧使用Ctrl+D收藏吧！'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: false
+                    });
+                </script>           
                 
             </div>
         </div>
     </div>
 </div>
+
+
 <script>
-// 每天切换 banner 图.  Switch banner image every day.
-$('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay() + '.jpg)');
 </script>
+
     </div>
 </div>
 <style>
@@ -334,8 +348,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     }
 
     .frind-ship .title h1 {
-        line-height: 0.8rem;
-        padding-bottom: 16px;
+        padding-bottom: 5px;
         border-bottom: 2px solid #fff;
     }
 
@@ -564,7 +577,7 @@ $(function () {
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;本站总字数:&nbsp;
-                <span class="white-color">13.6k</span>
+                <span class="white-color">43</span>
             
 
             
@@ -661,6 +674,24 @@ $(function () {
 </script>
 
 
+<!-- Baidu Analytics -->
+
+<!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
 
     <script src="/libs/others/clicklove.js"></script>
 
@@ -690,7 +721,7 @@ $(function () {
                     document.getElementById("tidio-chat-iframe").style.zIndex="997";
                 }
                 else if(tidio.css("display")=="block"&&$(window).width()<601 && parseInt(tidio.css("height"))<230){
-                    document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && $(window).width()<601)>0? "-10px":"45px" ;   
+                    document.getElementById("tidio-chat-iframe").style.bottom= ($("div#backTop.top-scroll").css("display")=="none" && $(window).width()<601)>0? "-15px":"45px" ;   
                     document.getElementById("tidio-chat-iframe").style.zIndex="997";
                 }
 
@@ -700,6 +731,10 @@ $(function () {
             } 
         }); 
     </script>
+
+
+
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
 
 
 </body>
