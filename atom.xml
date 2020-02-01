@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>神童岛主</title>
+  
+  <subtitle>最权威的社交电商经验分享平台</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://aihch.com/"/>
+  <updated>2020-01-27T12:33:37.683Z</updated>
+  <id>https://aihch.com/</id>
+  
+  <author>
+    <name>小神童</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>神童岛主</title>
+    <link href="https://aihch.com/2018/xiaoshentong360.html"/>
+    <id>https://aihch.com/2018/xiaoshentong360.html</id>
+    <published>2018-01-01T02:28:10.000Z</published>
+    <updated>2020-01-27T12:33:37.683Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最权威的社交电商经验分享平台，如果您觉得这个博客非常有看点，那么赶紧使用 Ctrl+D
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
