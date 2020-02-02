@@ -165,7 +165,7 @@ mark {
 
 .card {
     border-radius: 10px;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, .01), 0 5px 15px rgba(0, 0, 0, .01) !important;
     margin-top: -10px;
 }
 
@@ -617,7 +617,7 @@ header .go-back i {
     color: rgba(0, 0, 0, .87);
     background: #fff 50%;
     background-size: cover;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
+    box-shadow: 0 15px 35px rgba(50, 50, 93, .01), 0 5px 15px rgba(0, 0, 0, .01);
 }
 
 .recommend .post-card .post-body {
@@ -777,7 +777,7 @@ article .article-tags .chip {
 
 .prev-next .article-badge {
     min-width: 3rem;
-    margin-top: 7px;
+/*    margin-top: 7px;*/
     padding: 3px 10px 3px 8px;
     text-align: center;
     font-size: 1rem;
@@ -790,11 +790,11 @@ article .article-tags .chip {
 }
 
 .prev-next .left-badge {
-    border-radius: 8px 0 8px 0;
+    border-radius: 0 0 8px 0;
 }
 
 .prev-next .right-badge {
-    border-radius: 0 8px 0 8px;
+    border-radius: 0 0 0 8px;
     right: 10px;
 }
 
@@ -848,9 +848,9 @@ article .article-tags .chip {
 }
 
 #artDetail .card {
-    box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15),
-    0 5px 15px rgba(0, 0, 0, .07),
-    0 2px 5px -5px rgba(0, 0, 0, .1) !important;
+    box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .01),
+    0 5px 15px rgba(0, 0, 0, .01),
+    0 2px 5px -5px rgba(0, 0, 0, .01) !important;
 }
 
 #artDetail .tag-cate {
@@ -1328,7 +1328,7 @@ table tr:nth-child(2n), thead {
     padding: 0;
     border-radius: 5px;
     background: #ffffff;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07) !important;
+    box-shadow: 0 15px 35px rgba(50, 50, 93, .01), 0 5px 15px rgba(0, 0, 0, .01) !important;
 }
 
 .cd-timeline-content::after {
