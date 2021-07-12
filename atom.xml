@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>明师小神童</title>
+  <title>野生神童</title>
   
-  <subtitle>明师小神童</subtitle>
+  <subtitle>野生神童</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://aihch.com/"/>
-  <updated>2021-03-19T14:59:42.154Z</updated>
+  <updated>2021-07-12T11:20:19.100Z</updated>
   <id>https://aihch.com/</id>
   
   <author>
-    <name>明师小神童</name>
+    <name>野生神童</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>明师小神童</title>
+    <title>野生神童</title>
     <link href="https://aihch.com/2020/xiaoshentong360.html"/>
     <id>https://aihch.com/2020/xiaoshentong360.html</id>
     <published>2020-01-01T02:28:10.000Z</published>
-    <updated>2021-03-19T14:59:42.154Z</updated>
+    <updated>2021-07-12T11:20:19.100Z</updated>
     
     <summary type="html">
     
@@ -29,19 +29,20 @@
       
         
         
-          &lt;p&gt;有个小屁孩，在学校被老师一通骂——又笨又蠢。&lt;/p&gt;
-&lt;p&gt;是真的蠢笨吗？&lt;/p&gt;
-&lt;p&gt;只要是个智力正常，没有先天缺陷的人，就不可能是真蠢笨，而是——懒。&lt;/p&gt;
-&lt;p&gt;——#明师小神童&lt;/p&gt;
-&lt;p&gt;首先，什么是蠢笨？&lt;br&gt;解决问题的能力不行。&lt;/p&gt;
-&lt;p&gt;解决习题
+          &lt;p&gt;野生神童有三大功能&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;一针见血指出问题&lt;/li&gt;
+&lt;li&gt;单刀直入给出指引&lt;/li&gt;
+&lt;li&gt;直言不讳说出启发&lt;/li&gt;
+&lt;/ol&gt;
+
         
       
     
     </summary>
     
     
-      <category term="明师小神童" scheme="https://aihch.com/tags/%E6%98%8E%E5%B8%88%E5%B0%8F%E7%A5%9E%E7%AB%A5/"/>
+      <category term="野生神童" scheme="https://aihch.com/tags/%E9%87%8E%E7%94%9F%E7%A5%9E%E7%AB%A5/"/>
     
   </entry>
   
